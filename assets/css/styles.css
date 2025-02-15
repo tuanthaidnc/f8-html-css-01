@@ -70,6 +70,7 @@ a {
 .hero-wrap {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     position: relative;
     height: calc(100vh - 90px);
     background: #e6f0ff;
@@ -116,12 +117,11 @@ a {
 
 /* Hero info */
 
-.hero .info {
-    margin-top: 130px;
+.hero-wrap .info {
     width: 51%;
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
     color: #687690;
     font-size: 1.8rem;
     font-weight: 500;
@@ -129,21 +129,21 @@ a {
     margin-bottom: 8px;
 }
 
-.hero .title {
+.hero-wrap .title {~
     color: #000336;
     font-size: 6.2rem;
     font-weight: 700;
     line-height: 7.6rem; /* 118.75% */
 }
 
-.hero .desc {
+.hero-wrap .desc {
     color: #5a6473;
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 3.2rem; /* 177.778% */
 }
 
-.hero .hero-cta {
+.hero-wrap .hero-cta {
     margin-top: 40px;
     min-width: 170px;
 }
